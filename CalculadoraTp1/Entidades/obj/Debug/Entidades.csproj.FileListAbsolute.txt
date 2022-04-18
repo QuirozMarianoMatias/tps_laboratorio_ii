@@ -16,3 +16,9 @@ C:\Users\Quiroz Family\Desktop\Tp_Laboratorio_2-main\CalculadoraTp1\Entidades\ob
 C:\Users\Quiroz Family\Desktop\Tp_Laboratorio_2-main\CalculadoraTp1\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Quiroz Family\Desktop\Tp_Laboratorio_2-main\CalculadoraTp1\Entidades\obj\Debug\Entidades.dll
 C:\Users\Quiroz Family\Desktop\Tp_Laboratorio_2-main\CalculadoraTp1\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Quiroz Family\Desktop\Nueva carpeta\tps_laboratorio_ii\CalculadoraTp1\Entidades\bin\Debug\Entidades.dll
+C:\Users\Quiroz Family\Desktop\Nueva carpeta\tps_laboratorio_ii\CalculadoraTp1\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Quiroz Family\Desktop\Nueva carpeta\tps_laboratorio_ii\CalculadoraTp1\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Quiroz Family\Desktop\Nueva carpeta\tps_laboratorio_ii\CalculadoraTp1\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Quiroz Family\Desktop\Nueva carpeta\tps_laboratorio_ii\CalculadoraTp1\Entidades\obj\Debug\Entidades.dll
+C:\Users\Quiroz Family\Desktop\Nueva carpeta\tps_laboratorio_ii\CalculadoraTp1\Entidades\obj\Debug\Entidades.pdb

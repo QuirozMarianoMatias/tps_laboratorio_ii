@@ -37,13 +37,13 @@
             this.txtNumero2 = new System.Windows.Forms.TextBox();
             this.txtNumero1 = new System.Windows.Forms.TextBox();
             this.cmbOperador = new System.Windows.Forms.ComboBox();
-            this.lstOperaciones = new System.Windows.Forms.RichTextBox();
+            this.lstOperaciones = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // btnConvertirABinario
             // 
             this.btnConvertirABinario.Location = new System.Drawing.Point(53, 190);
-            this.btnConvertirABinario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnConvertirABinario.Margin = new System.Windows.Forms.Padding(2);
             this.btnConvertirABinario.Name = "btnConvertirABinario";
             this.btnConvertirABinario.Size = new System.Drawing.Size(206, 32);
             this.btnConvertirABinario.TabIndex = 6;
@@ -54,7 +54,7 @@
             // btnConvertirADecimal
             // 
             this.btnConvertirADecimal.Location = new System.Drawing.Point(273, 190);
-            this.btnConvertirADecimal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnConvertirADecimal.Margin = new System.Windows.Forms.Padding(2);
             this.btnConvertirADecimal.Name = "btnConvertirADecimal";
             this.btnConvertirADecimal.Size = new System.Drawing.Size(206, 32);
             this.btnConvertirADecimal.TabIndex = 7;
@@ -65,7 +65,7 @@
             // btnOperar
             // 
             this.btnOperar.Location = new System.Drawing.Point(53, 136);
-            this.btnOperar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnOperar.Margin = new System.Windows.Forms.Padding(2);
             this.btnOperar.Name = "btnOperar";
             this.btnOperar.Size = new System.Drawing.Size(129, 25);
             this.btnOperar.TabIndex = 3;
@@ -76,7 +76,7 @@
             // btnLimpiar
             // 
             this.btnLimpiar.Location = new System.Drawing.Point(200, 136);
-            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(2);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(129, 25);
             this.btnLimpiar.TabIndex = 4;
@@ -87,7 +87,7 @@
             // btnCerrar
             // 
             this.btnCerrar.Location = new System.Drawing.Point(350, 136);
-            this.btnCerrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(129, 25);
             this.btnCerrar.TabIndex = 5;
@@ -108,7 +108,7 @@
             // txtNumero2
             // 
             this.txtNumero2.Location = new System.Drawing.Point(350, 66);
-            this.txtNumero2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNumero2.Margin = new System.Windows.Forms.Padding(2);
             this.txtNumero2.Name = "txtNumero2";
             this.txtNumero2.Size = new System.Drawing.Size(130, 20);
             this.txtNumero2.TabIndex = 2;
@@ -116,7 +116,7 @@
             // txtNumero1
             // 
             this.txtNumero1.Location = new System.Drawing.Point(53, 66);
-            this.txtNumero1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNumero1.Margin = new System.Windows.Forms.Padding(2);
             this.txtNumero1.Name = "txtNumero1";
             this.txtNumero1.Size = new System.Drawing.Size(131, 20);
             this.txtNumero1.TabIndex = 0;
@@ -126,19 +126,18 @@
             this.cmbOperador.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbOperador.FormattingEnabled = true;
             this.cmbOperador.Location = new System.Drawing.Point(225, 65);
-            this.cmbOperador.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmbOperador.Margin = new System.Windows.Forms.Padding(2);
             this.cmbOperador.Name = "cmbOperador";
             this.cmbOperador.Size = new System.Drawing.Size(82, 21);
             this.cmbOperador.TabIndex = 1;
             // 
             // lstOperaciones
             // 
-            this.lstOperaciones.Location = new System.Drawing.Point(537, 14);
+            this.lstOperaciones.FormattingEnabled = true;
+            this.lstOperaciones.Location = new System.Drawing.Point(536, 27);
             this.lstOperaciones.Name = "lstOperaciones";
-            this.lstOperaciones.Size = new System.Drawing.Size(264, 266);
+            this.lstOperaciones.Size = new System.Drawing.Size(284, 251);
             this.lstOperaciones.TabIndex = 8;
-            this.lstOperaciones.Text = "";
-            
             // 
             // FormCalculadora
             // 
@@ -156,7 +155,7 @@
             this.Controls.Add(this.btnConvertirADecimal);
             this.Controls.Add(this.btnConvertirABinario);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormCalculadora";
@@ -180,7 +179,7 @@
         private System.Windows.Forms.TextBox txtNumero2;
         private System.Windows.Forms.TextBox txtNumero1;
         private System.Windows.Forms.ComboBox cmbOperador;
-        private System.Windows.Forms.RichTextBox lstOperaciones;
+        private System.Windows.Forms.ListBox lstOperaciones;
     }
 }
 

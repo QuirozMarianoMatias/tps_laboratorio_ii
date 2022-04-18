@@ -68,9 +68,8 @@ namespace CalculadoraTp1
 
         private void btnOperar_Click(object sender, EventArgs e)
         {
-
           lblResultado.Text =  Operar(txtNumero1.Text, txtNumero2.Text, cmbOperador.Text).ToString();
-          lstOperaciones.Text += $"{txtNumero1.Text} {cmbOperador.Text} {txtNumero2.Text} = {lblResultado.Text}\n";
+          lstOperaciones.Items.Add($"{txtNumero1.Text} {cmbOperador.Text}  {txtNumero2.Text} = {lblResultado.Text}");
         }
 
         private void btnConvertirABinario_Click(object sender, EventArgs e)
